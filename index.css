@@ -112,10 +112,6 @@ html::-webkit-scrollbar-thumb {
 
 .styleBmi button {
     color: white;
-    background: #0c5a32;
-    height: auto;
-    width: 190px;
-    border: none;
     border-radius: 15px;
     letter-spacing: .1rem;
 }
@@ -493,9 +489,9 @@ html::-webkit-scrollbar-thumb {
 }
 
 
+
+
 /* Multiplication */
-
-
 
 #mtable {
     font-family: "Comic Sans MS";
