@@ -525,9 +525,7 @@
 #mtable {
     font-family: "Comic Sans MS";
     border-collapse: collapse;
-    width: 30%;
     background-color: #f2c9ab;
-
 }
 
 #mtable td,
@@ -567,7 +565,7 @@
     border-radius: 15px;
 }
 
-.resMultiplication {
+.uiTable .resMultiplication {
     display: flex;
     align-items: center;
     text-align: center;
@@ -695,14 +693,6 @@
         width: 100px;
     }
 
-
-    .resMultiplication {
-        display: flex;
-        align-items: center;
-        text-align: center;
-        justify-content: center;
-        background-color: #dadccf58;
-    }
 }
 
 
