@@ -510,6 +510,11 @@
     border-top: 3px solid #ab7cf0;
 }
 
+.box{
+    text-align: center;
+    height: auto;
+}
+
 .box h2 {
     color: var(--varyDarkBlue);
     font-weight: var(--weight3);
@@ -518,6 +523,8 @@
     align-items: center;
     text-align: center;
 }
+
+
 
 .box p {
     font-family: "Comic Sans MS";
@@ -659,6 +666,7 @@
     align-items: center;
     background: url("/images/1.jpg");
     height: 30px;
+    width: 100%;
 }
 
 
