@@ -127,46 +127,63 @@
     <div class="modal fade" id="exampleModalCalculator" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
         aria-hidden="true" style="background-color:rgba(0, 0, 0, 0.4)">
         <div class="modal-dialog modal-dialog-centered" role="document">
+            
             <div class="modal-contentBigCalc">
 
 
-                <div class="containerBigCalc">
+                <div class="styleBigCalc">
 
-                    <form action="" name="calc" class="calculator">
+                    <div class="calculater center text-center clearfix">
 
-                        <h6 class="value" id="resultBigCalc"></h6>
+                        <p class="title">Tiny Stone</p>
+                        <p class="name">ELECTRONIC CALCULATOR</p>
 
-                        <span class="num clear" onclick="clearCalcScreen()"><i>C</i></span>
-                        <span class="num division" onclick="showNum('/')"><i>/</i></span>
-                        <span class="num Dual" onclick="showNum('*')"><i>*</i></span>
-                        <span class="num" onclick="showNum('7')"><i>7</i></span>
-                        <span class="num" onclick="showNum('8')"><i>8</i></span>
-                        <span class="num" onclick="showNum('9')"><i>9</i></span>
-                        <span class="num minus" onclick="showNum('-')"><i>-</i></span>
-                        <span class="num" onclick="showNum('4')"><i>4</i></span>
-                        <span class="num" onclick="showNum('5')"><i>5</i></span>
-                        <span class="num" onclick="showNum('6')"><i>6</i></span>
-                        <span class="num plus" onclick="showNum('+')"><i>+</i></span>
-                        <span class="num" onclick="showNum('1')"><i>1</i></span>
-                        <span class="num" onclick="showNum('2')"><i>2</i></span>
-                        <span class="num" onclick="showNum('3')"><i>3</i></span>
-                        <span class="num" onclick="showNum('0')" "><i>0</i></span>
-                        <span class=" num point" onclick="showNum('.')"><i>.</i></span>
-                        <!-- <span class="num point" onclick="showNum('.')" onkeydown="myFunction(event)"><i>.</i></span> -->
+                        <p class="calculater-input" id="resultBigCalc"></p>
 
-                        <span class="num equal" onclick="Worth()"><i>=</i></span>
+                        <div class="calculater-btns center-block">
+                            <table class="table">
+                                <tr>
+                                    <!-- <td><button class="red-button">AC</button></td> -->
+                                    <td><button class="red-button" onclick="clearCalcScreen()">CE</button></td>
 
-                        <span class="num close" data-dismiss="modal">
-                            <i>
-                                <p>Close</p>
-                            </i>
-                        </span>
+                                    <td><button onclick="showNum('%')">%</button></td>
+                                    <td><button onclick="showNum('/')">/</button></td>
+                                </tr>
+                                <tr>
+                                    <td><button onclick="showNum('7')">7</button></td>
+                                    <td><button onclick="showNum('8')">8</button></td>
+                                    <td><button onclick="showNum('9')">9</button></td>
+                                    <td><button onclick="showNum('*')">X</button></td>
+                                </tr>
+                                <tr>
+                                    <td><button onclick="showNum('4')">4</button></td>
+                                    <td><button onclick="showNum('5')">5</button></td>
+                                    <td><button onclick="showNum('6')">6</button></td>
+                                    <td><button onclick="showNum('-')">-</button></td>
+                                </tr>
+                                <tr>
+                                    <td><button onclick="showNum('1')">1</button></td>
+                                    <td><button onclick="showNum('2')">2</button></td>
+                                    <td><button onclick="showNum('3')">3</button></td>
+                                    <td rowspan="2" class="big-button"><button class="big-button"
+                                            onclick="showNum('+')">+</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><button onclick="showNum('0')">0</button></td>
+                                    <td><button onclick="showNum('.')">.</button></td>
+                                    <td><button onclick="Worth()">=</button></td>
 
-                    </form>
-
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
                 </div>
+
+
             </div>
         </div>
+    </div>
     </div>
 
 
@@ -314,6 +331,21 @@
             </div>
         </div>
     </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
