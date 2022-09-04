@@ -674,13 +674,25 @@
         height: 30px;
     }
 
-    .table button{
+    .table button {
         display: flex;
         justify-content: center;
         text-align: center;
         align-items: center;
     }
 
+
+    .inP input {
+        font-size: 16px;
+        height: 50px;
+        width: 60px;
+    }
+
+
+    .inP p {
+        font-size: 16px;
+        width: 100px;
+    }
 }
 
 
