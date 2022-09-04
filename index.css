@@ -326,10 +326,7 @@
     margin: 10px 15px;
 }
 
-.table{
-    text-align: center;
-    align-items: center;
-}
+
 
 .table .closeCalc button {
     background-image: linear-gradient(to bottom, #CC4E5F, #b33445) !important;
@@ -670,7 +667,6 @@
         min-width: 100px;
         min-height: 100px;
         padding: 20px 30px 30px;
-
     }
 
     .containerBigCalc span {
@@ -679,7 +675,11 @@
 
         margin: 8px;
         height: 30px;
+    }
 
+    .table button{
+        text-align: center;
+        align-items: center;
     }
 
 }
