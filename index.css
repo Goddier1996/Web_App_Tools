@@ -510,7 +510,7 @@
     border-top: 3px solid #ab7cf0;
 }
 
-.box{
+.box {
     text-align: center;
     height: auto;
 }
@@ -551,7 +551,9 @@
         top: 150px;
     }
 
-
+    .box {
+        width: 25%;
+    }
 
     .box {
         text-align: center;
