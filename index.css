@@ -709,4 +709,15 @@
     .fotter p {
         padding-top: 3%;
     }
+
+    .box {
+        text-align: center;
+        height: auto;
+    }
+
+    .box img {
+        float: none;
+        height: 75px;
+        cursor: pointer;
+    }
 }
