@@ -127,7 +127,7 @@
     <div class="modal fade" id="exampleModalCalculator" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
         aria-hidden="true" style="background-color:rgba(0, 0, 0, 0.4)">
         <div class="modal-dialog modal-dialog-centered" role="document">
-            
+
             <div class="modal-contentBigCalc">
 
 
@@ -148,6 +148,8 @@
 
                                     <td><button onclick="showNum('%')">%</button></td>
                                     <td><button onclick="showNum('/')">/</button></td>
+                                    <td><button onclick="showNum('-')">-</button></td>
+
                                 </tr>
                                 <tr>
                                     <td><button onclick="showNum('7')">7</button></td>
@@ -159,20 +161,22 @@
                                     <td><button onclick="showNum('4')">4</button></td>
                                     <td><button onclick="showNum('5')">5</button></td>
                                     <td><button onclick="showNum('6')">6</button></td>
-                                    <td><button onclick="showNum('-')">-</button></td>
+                                    <td rowspan="2" class="big-button"><button class="big-button"
+                                        onclick="showNum('+')">+</button>
+                                </td>
                                 </tr>
                                 <tr>
                                     <td><button onclick="showNum('1')">1</button></td>
                                     <td><button onclick="showNum('2')">2</button></td>
                                     <td><button onclick="showNum('3')">3</button></td>
-                                    <td rowspan="2" class="big-button"><button class="big-button"
-                                            onclick="showNum('+')">+</button>
-                                    </td>
+
+                                    
                                 </tr>
                                 <tr>
                                     <td><button onclick="showNum('0')">0</button></td>
                                     <td><button onclick="showNum('.')">.</button></td>
                                     <td><button onclick="Worth()">=</button></td>
+                                    <!-- <td class="closeCalc"><button onclick="Worth()" data-dismiss="modal">Close</button></td> -->
 
                                 </tr>
                             </table>
@@ -182,10 +186,9 @@
 
 
             </div>
+
         </div>
     </div>
-    </div>
-
 
 
 

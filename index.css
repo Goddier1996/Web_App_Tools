@@ -466,6 +466,9 @@
     justify-content: center;
 }
 
+
+
+
 .calculater {
     background-color: #F3EEE7;
     margin-top: 50px;
@@ -489,7 +492,7 @@
 .calculater-input {
     margin-left: 9%;
     text-align: right;
-    font-size: 30px;
+    font-size: 20px;
     line-height: 40px;
     background-color: #C7C7B0;
     border: 1px solid #b2b292;
@@ -504,9 +507,7 @@
 }
 
 .calculater-btns {
-
     margin: 10px 15px;
-
 }
 
 .table button {
