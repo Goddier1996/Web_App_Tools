@@ -532,6 +532,7 @@
     text-align: center;
 }
 
+
 @media (min-width: 950px) {
     .row1-container {
         display: flex;
@@ -550,8 +551,17 @@
         top: 150px;
     }
 
+
+
     .box {
-        width: 20%;
+        text-align: center;
+        height: auto;
+    }
+
+    .box img {
+        float: none;
+        height: 75px;
+        cursor: pointer;
     }
 
     .header p {
