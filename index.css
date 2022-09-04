@@ -20,6 +20,8 @@ html::-webkit-scrollbar-thumb {
             rgba(255, 255, 255, .2) 75%,
             transparent 75%,
             transparent);
+    border-radius: 50px;
+
 }
 
 
