@@ -1,0 +1,694 @@
+/* info */
+
+
+.start {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background: url("/images/1.jpg");
+    height: 45px;
+}
+
+
+
+.start p {
+    padding-top: 1%;
+    color: #ffffff;
+    letter-spacing: 0.2rem;
+    font-family: "Comic Sans MS";
+}
+
+
+
+
+
+/* start image */
+
+.HomeImage {
+    position: relative;
+    text-align: center;
+    text-align: center;
+}
+
+.HomeImage img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 350px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.HomeImage h1 {
+    position: absolute;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Comic Sans MS";
+    color: #d79f32;
+}
+
+
+
+
+
+/* BMI */
+
+.modal-contentBMI {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    pointer-events: auto;
+    background: url("./images/istockphoto-528072248-612x612.jpg");
+    box-shadow: inset rgba(0, 0, 0, 0.538) 0 0 0 500px;
+    transition: box-shadow 400ms;
+    background-clip: padding-box;
+    border-radius: 15px;
+}
+
+
+.styleBmi .closes {
+    padding-left: 80%;
+    font-size: 2.5rem;
+    line-height: 1;
+    color: rgb(255, 255, 255);
+    opacity: 1;
+    border: none;
+    background-color: none;
+    -webkit-appearance: none;
+    width: 50px;
+    cursor: pointer;
+}
+
+
+.styleBmi button {
+    color: white;
+    background: #0c5a32;
+    height: 40px;
+    width: 190px;
+    border: none;
+    border-radius: 15px;
+    letter-spacing: .1rem;
+}
+
+
+.styleBmi h1 {
+    color: white;
+    font-size: 30px;
+    letter-spacing: .2rem;
+    font-family: "Comic Sans MS";
+}
+
+.form-group input {
+    width: 300px;
+    background: #d3e1cad3;
+    color: black;
+    font-size: 17px;
+    text-align: center;
+    letter-spacing: .1rem;
+    border: none;
+    border-radius: 15px;
+}
+
+
+.form-group input::placeholder {
+    color: rgb(0, 0, 0);
+}
+
+
+#weightError {
+    background: rgba(0, 0, 0, 0.418);
+    display: none;
+    color: #DF2020;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+}
+
+#heightError {
+    background: rgba(0, 0, 0, 0.418);
+    display: none;
+    color: #DF2020;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+/* mini calc */
+
+.modal-contentMiniCalc {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    pointer-events: auto;
+    box-shadow: rgb(0 0 0 / 25%) 25px 25px 75px, rgb(0 0 0 / 25%) 10px 10px 70px, rgb(0 0 0 / 25%) -5px -5px 15px inset, rgb(0 0 0 / 25%) 5px 5px 15px inset;
+    background: url("/images/paperMath.jpg");
+    background-clip: padding-box;
+    border-radius: 15px;
+}
+
+
+.modal-contentMiniCalc h1 {
+    font-size: 28px;
+    color: rgb(0, 0, 0);
+    font-family: "Comic Sans MS";
+}
+
+
+
+.inP {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.inP input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(245, 222, 179, 0);
+    border: 2px solid #989e92;
+    color: black;
+    font-size: 20px;
+    height: 50px;
+    width: 80px;
+    opacity: 0.7;
+    border-radius: 15px;
+    font-weight: bold;
+    margin: 2%;
+}
+
+
+.inP p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: none;
+    border: 2px solid #989e92;
+    color: black;
+    font-size: 20px;
+    height: 50px;
+    width: 180px;
+    opacity: 0.7;
+    border-radius: 15px;
+    font-weight: bold;
+    margin: 2%;
+}
+
+
+.inP select {
+    background-color: rgba(245, 245, 245, 0);
+    border-radius: 15px;
+    border: 0;
+    outline: none;
+    width: auto;
+    height: 6%;
+    margin: 1%;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.inP h6 {
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+
+.styleMiniCalc h2 {
+    padding-left: 70%;
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1;
+    color: rgb(0, 0, 0);
+    border: none;
+    background-color: none;
+    -webkit-appearance: none;
+    width: 50px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+/* Big Calc style */
+
+.containerBigCalc {
+    position: relative;
+    min-width: 300px;
+    min-height: 400px;
+    padding: 40px 30px 30px;
+    box-shadow: 25px 25px 75px rgba(0, 0, 0, 0.25),
+        10px 10px 70px rgba(0, 0, 0, 0.25), inset -5px -5px 15px rgba(0, 0, 0, 0.25),
+        inset 5px 5px 15px rgba(0, 0, 0, 0.25);
+    background-color: #202020;
+    border-radius: 20px;
+}
+
+
+.modal-contentBigCalc {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    pointer-events: auto;
+    background-color: none;
+    background-clip: padding-box;
+}
+
+.containerBigCalc span {
+    color: #fff;
+    position: relative;
+    display: grid;
+    width: 80px;
+    place-items: center;
+    margin: 8px;
+    height: 80px;
+    background: linear-gradient(180deg, #2f2f2fa5, #2f2f2fa5);
+    box-shadow: inset -8px 0 8px rgba(0, 0, 0, 0.15),
+        inset 0 -8px 8px rgba(0, 0, 0, 0.25), 0 0 0 2px rgba(0, 0, 0, 0.75),
+        10px 20px 25px rgba(0, 0, 0, 0.4);
+    user-select: none;
+    cursor: pointer;
+    font-weight: 400;
+    border-radius: 10px;
+}
+
+.calculator span:active {
+    filter: brightness(1.5);
+}
+
+.calculator span::before {
+    content: "";
+    position: absolute;
+    top: 3px;
+    left: 4px;
+    bottom: 14px;
+    right: 12px;
+    border-radius: 10px;
+    background: linear-gradient(90deg, #2f2f2fa5, #2f2f2fa5);
+    box-shadow: -5px -5px 15px rgba(0, 0, 0, 0.1),
+        10px 5px 10px rgba(0, 0, 0, 0.15);
+    border-left: 1px solid #0004;
+    border-bottom: 1px solid #0004;
+    border-top: 1px solid #0009;
+}
+
+.calculator span i {
+    position: relative;
+    font-style: normal;
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+
+.calculator {
+    position: relative;
+    display: grid;
+}
+
+.calculator .value {
+    position: relative;
+    grid-column: span 4;
+    height: 100px;
+    width: calc(100% - 20px);
+    left: 10px;
+    border: none;
+    outline: none;
+    background-color: #a7af7c;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.75);
+    text-align: right;
+    padding: 10px;
+    font-size: 2em;
+}
+
+.calculator .clear {
+    grid-column: span 2;
+    width: 180px;
+    background: #f00;
+}
+
+.calculator .clear::before {
+    background: linear-gradient(90deg, #d20000, #ffffff5c);
+    border-left: 1px solid #fff4;
+    border-bottom: 1px solid #fff4;
+    border-top: 1px solid #fff4;
+}
+
+.calculator .plus {
+    grid-row: span 2;
+    height: 180px;
+}
+
+
+.calculator .point,
+.calculator .Dual,
+.calculator .division,
+.calculator .plus,
+.calculator .minus {
+    background: linear-gradient(90deg, #3a3b3d, #3a3b3d);
+}
+
+
+
+.calculator .point::before,
+.calculator .Dual::before,
+.calculator .division::before,
+.calculator .plus::before,
+.calculator .minus::before {
+    background: linear-gradient(90deg, #3a3b3d, #3a3b3d);
+    border-left: 1px solid #3a3b3d;
+    border-bottom: 1px solid #3a3b3d;
+    border-top: 1px solid #4a4c50;
+}
+
+
+.calculator .equal {
+    background: #f09346;
+    color: black;
+    font-weight: bold;
+}
+
+
+.calculator .equal::before {
+    background: linear-gradient(90deg, #f09346, #ffffff5c);
+    border-left: 1px solid #fff4;
+    border-bottom: 1px solid #fff4;
+    border-top: 1px solid #fff4;
+}
+
+
+
+.calculator .close {
+    background: #ff0000;
+}
+
+.calculator .close::before {
+    background: linear-gradient(90deg, #ff0000, #ffffff5c);
+    border-left: 1px solid #fff4;
+    border-bottom: 1px solid #fff4;
+    border-top: 1px solid #fff4;
+}
+
+.calculator p {
+    font-size: 14px;
+    color: white;
+    padding-top: 15%;
+}
+
+
+.calculator h6 {
+    align-items: center;
+    display: flex;
+    justify-content: end;
+}
+
+
+
+
+
+
+
+/* cards ui models */
+
+
+:root {
+    --varyDarkBlue: hsl(234, 12%, 34%);
+    --grayishBlue: hsl(229, 6%, 66%);
+    --veryLightGray: hsl(0, 0%, 98%);
+    --weight1: 200;
+    --weight2: 400;
+    --weight3: 600;
+}
+
+
+
+
+.box p {
+    color: var(--grayishBlue);
+}
+
+.box {
+    border-radius: 5px;
+    box-shadow: 0px 30px 40px -20px var(--grayishBlue);
+    padding: 30px;
+    margin: 20px;
+}
+
+.box img {
+    float: right;
+    height: 75px;
+    cursor: pointer;
+}
+
+
+
+@media (max-width: 950px) and (min-width: 450px) {
+    .box {
+        text-align: center;
+        height: auto;
+    }
+
+    .box img {
+        float: none;
+        height: 75px;
+        cursor: pointer;
+    }
+}
+
+.cyan {
+    border-top: 3px solid #fdcb0c;
+}
+
+.red {
+    border-top: 3px solid #2c8684;
+}
+
+.blue {
+    border-top: 3px solid #1eddb1;
+}
+
+.orange {
+    border-top: 3px solid #ab7cf0;
+}
+
+.box h2 {
+    color: var(--varyDarkBlue);
+    font-weight: var(--weight3);
+    font-family: "Comic Sans MS";
+    font-size: 22px;
+    align-items: center;
+    text-align: center;
+}
+
+.box p {
+    font-family: "Comic Sans MS";
+    align-items: center;
+    text-align: center;
+}
+
+@media (min-width: 950px) {
+    .row1-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .row2-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box-down {
+        position: relative;
+        top: 150px;
+    }
+
+    .box {
+        width: 20%;
+    }
+
+    .header p {
+        width: 30%;
+    }
+}
+
+
+
+
+
+
+
+
+
+/* Multiplication */
+
+
+
+#mtable {
+    font-family: "Comic Sans MS";
+    border-collapse: collapse;
+    width: 30%;
+    background-color: #f2c9ab;
+
+}
+
+#mtable td,
+#mtable th {
+    border: 1px solid #ddd;
+    padding: 8px;
+
+}
+
+#mtable tr:nth-child(even) {
+    background-color: #FFF8DC;
+}
+
+#mtable tr:hover {
+    background-color: #F5DEB3;
+}
+
+
+
+
+
+.modal-contentMultiplication {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 1100px;
+    pointer-events: auto;
+    background-color: none;
+    background-clip: padding-box;
+    box-shadow: rgb(0 0 0 / 25%) 25px 25px 75px, rgb(0 0 0 / 25%) 10px 10px 70px, rgb(0 0 0 / 25%) -5px -5px 15px inset, rgb(0 0 0 / 25%) 5px 5px 15px inset;
+    background: url("/images/ll.jpg");
+    border-radius: 15px;
+}
+
+.resMultiplication {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: #dadccf58;
+}
+
+
+.uiTable {
+    text-align: center;
+}
+
+.uiTable h1 {
+    font-family: "Comic Sans MS";
+    font-size: 27px;
+    background-color: #fff8dca8;
+    color: rgb(0, 0, 0);
+}
+
+
+
+.uiTable .closes {
+    padding-left: 90%;
+    margin-top: -5%;
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1;
+    color: rgb(0, 0, 0);
+    border: none;
+    background-color: none;
+    -webkit-appearance: none;
+    width: 50px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+/* fotter */
+
+.fotter {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background: url("/images/1.jpg");
+    height: 30px;
+}
+
+
+.fotter p {
+    padding-top: 1%;
+    color: white;
+    font-size: 12px;
+    letter-spacing: 0.1rem;
+    font-family: "Comic Sans MS";
+}
+
+
+
+
+
+
+
+@media(max-width:991px) {
+    .HomeImage h1 {
+        top: 50%;
+        font-size: 30px;
+    }
+
+    .start p {
+        font-size: 14px;
+        letter-spacing: 0.1rem;
+
+    }
+
+    .fotter p {
+        padding-top: 3%;
+    }
+}

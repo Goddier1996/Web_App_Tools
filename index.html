@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Tools</title>
+
+    <link rel="icon" type="image" href="https://i.postimg.cc/Cx3wq7VC/logo.png">
+
+    <link rel="stylesheet" href="/index.css">
+
+
+    <script src="https://unpkg.com/mathjs/lib/browser/math.js"></script>
+
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/10.6.4/math.js"
+        integrity="sha512-BbVEDjbqdN3Eow8+empLMrJlxXRj5nEitiCAK5A1pUr66+jLVejo3PmjIaucRnjlB0P9R3rBUs3g5jXc8ti+fQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/10.6.4/math.min.js"
+        integrity="sha512-iphNRh6dPbeuPGIrQbCdbBF/qcqadKWLa35YPVfMZMHBSI6PLJh1om2xCTWhpVpmUyb4IvVS9iYnnYMkleVXLA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</head>
+
+<body>
+
+
+
+    <!-- start info -->
+
+    <div class="start">
+        <p>Info : Click to image tool for use tools</p>
+    </div>
+
+
+
+
+    <!-- image home -->
+    <div class="HomeImage">
+        <img src="/images/home 3.jpg">
+        <h1>Welcome Here Calculation tool</h1>
+    </div>
+
+
+
+
+    <br />
+
+
+
+
+    <!-- models card -->
+    <div>
+
+        <div class="row1-container">
+
+
+            <div class="box box-down cyan">
+                <h2>Calculator</h2>
+                <p>A designed calculator, with a selection of calculation operations.</p>
+                <img src="/images/calc12.png" style="height:110px" alt="" data-toggle="modal"
+                    data-target="#exampleModalCalculator">
+            </div>
+
+
+            <div class="box red">
+                <h2>Bmi Calculater</h2>
+                <p>Overweight check calculator, with true or false</p>
+                <img src="/images/bmi.png" alt="" data-toggle="modal" data-target="#exampleModalBmi">
+            </div>
+
+
+            <div class="box box-down blue">
+                <h2>Mini Calculator</h2>
+                <p>Mini calculator with calculation operations</p>
+                <img src="/images/miniCalc.png" alt="" data-toggle="modal" data-target="#exampleModalMiniCalc">
+            </div>
+
+        </div>
+
+
+        <div class="row2-container">
+
+            <div class="box orange">
+                <h2>Multiplication table</h2>
+                <p>Here show Multiplication table</p>
+                <img src="/images/mu1.png" alt="" data-toggle="modal" data-target="#exampleMultiplication">
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <br />
+
+
+
+
+
+
+
+    <!-- Big Calc -->
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModalCalculator" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true" style="background-color:rgba(0, 0, 0, 0.4)">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-contentBigCalc">
+
+
+                <div class="containerBigCalc">
+
+                    <form action="" name="calc" class="calculator">
+
+                        <h6 class="value" id="resultBigCalc"></h6>
+
+                        <span class="num clear" onclick="clearCalcScreen()"><i>C</i></span>
+                        <span class="num division" onclick="showNum('/')"><i>/</i></span>
+                        <span class="num Dual" onclick="showNum('*')"><i>*</i></span>
+                        <span class="num" onclick="showNum('7')"><i>7</i></span>
+                        <span class="num" onclick="showNum('8')"><i>8</i></span>
+                        <span class="num" onclick="showNum('9')"><i>9</i></span>
+                        <span class="num minus" onclick="showNum('-')"><i>-</i></span>
+                        <span class="num" onclick="showNum('4')"><i>4</i></span>
+                        <span class="num" onclick="showNum('5')"><i>5</i></span>
+                        <span class="num" onclick="showNum('6')"><i>6</i></span>
+                        <span class="num plus" onclick="showNum('+')"><i>+</i></span>
+                        <span class="num" onclick="showNum('1')"><i>1</i></span>
+                        <span class="num" onclick="showNum('2')"><i>2</i></span>
+                        <span class="num" onclick="showNum('3')"><i>3</i></span>
+                        <span class="num" onclick="showNum('0')" "><i>0</i></span>
+                        <span class=" num point" onclick="showNum('.')"><i>.</i></span>
+                        <!-- <span class="num point" onclick="showNum('.')" onkeydown="myFunction(event)"><i>.</i></span> -->
+
+                        <span class="num equal" onclick="Worth()"><i>=</i></span>
+
+                        <span class="num close" data-dismiss="modal">
+                            <i>
+                                <p>Close</p>
+                            </i>
+                        </span>
+
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <!-- BMI Calc -->
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModalBmi" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true" style="background-color:rgba(0, 0, 0, 0.4)">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+
+            <div class="modal-contentBMI styleBmi">
+
+
+                <p class="closes" data-dismiss="modal" aria-label="Close">
+                    &times;
+                </p>
+
+
+                <h1>BMI Calculate :</h1>
+                <br />
+
+
+                <div class="form-group">
+
+                    <input type="number" class="form-control" id="weight" placeholder="Enter Weight">
+
+                    <small id="emailHelp" class="form-text text-muted">
+                        <p id="weightError">Invalid weight field</p>
+                    </small>
+                </div>
+
+
+                <div class="form-group">
+
+                    <input type="number" class="form-control" aria-describedby="emailHelp" id="height"
+                        placeholder="Enter height">
+
+                    <small id="emailHelp" class="form-text text-muted">
+                        <p id="heightError">Invalid height field</p>
+                    </small>
+                </div>
+
+
+                <br />
+
+
+                <button type="button" onclick="checkBMI()">Calculate your BMI</button>
+
+                <!-- we show result with popup swal,but can show result and with innerHTML -->
+                <p id="resultBmi"></p>
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <!-- mini Calc -->
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModalMiniCalc" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true" style="background-color:rgba(0, 0, 0, 0.4)">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-contentMiniCalc styleMiniCalc">
+
+
+                <h2 class="closes" data-dismiss="modal" aria-label="Close">
+                    &times;
+                </h2>
+
+
+                <h1>Mini Calculate :</h1>
+                <br />
+
+                <div class="inP">
+
+                    <input type="text" id="n1" onchange="checkInputValue(this)">
+
+                    <select id="operators">
+                        <option value="+">+</option>
+                        <option value="-">-</option>
+                        <option value="/">/</option>
+                        <option value="*">*</option>
+                    </select>
+
+                    <input type="text" id="n2" onchange="checkInputValue(this)">
+
+                    <h6 onclick="calcmn()">=</h6>
+
+                    <p id="resultCalcMini"></p>
+
+                </div>
+                <br />
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <!-- Multiplication table-->
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleMultiplication" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true" style="background-color:rgba(0, 0, 0, 0.4)">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-contentMultiplication">
+
+                <br />
+
+
+                <div class="uiTable">
+
+                    <p class="closes" data-dismiss="modal" aria-label="Close">
+                        &times;
+                    </p>
+
+                    <h1>Multiplication table</h1>
+                    <br />
+                    <div class="resMultiplication" id="resultMultiplication"></div>
+
+                </div>
+
+                <br />
+                <br />
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <!-- end page fotter -->
+
+    <div class="fotter">
+        <p>made and design @Artium Kot</p>
+    </div>
+
+
+
+
+    <script src="/index.js"></script>
+
+
+</body>
+
+</html>
