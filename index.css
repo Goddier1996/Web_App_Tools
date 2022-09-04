@@ -326,10 +326,10 @@
     margin: 10px 15px;
 }
 
-/* .table{
+.table{
     text-align: center;
     align-items: center;
-} */
+}
 
 .table .closeCalc button {
     background-image: linear-gradient(to bottom, #CC4E5F, #b33445) !important;
