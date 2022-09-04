@@ -21,7 +21,6 @@ html::-webkit-scrollbar-thumb {
             transparent 75%,
             transparent);
     border-radius: 50px;
-
 }
 
 
@@ -258,6 +257,7 @@ html::-webkit-scrollbar-thumb {
     font-size: 25px;
     font-weight: bold;
     cursor: pointer;
+    padding: 1%;
 }
 
 
