@@ -10,24 +10,6 @@ function showNum(val) {
 
 
 
-
-// function myFunction(event) {
-
-//     if (event.key == '0' || event.key == '1'
-//         || event.key == '2' || event.key == '3'
-//         || event.key == '4' || event.key == '5'
-//         || event.key == '6' || event.key == '7'
-//         || event.key == '8' || event.key == '9'
-//         || event.key == '+' || event.key == '-'
-//         || event.key == '*' || event.key == '/') {
-
-//         document.getElementById("result").innerHTML += event.key;
-//     }
-
-// }
-
-
-
 // show result,if dont have input show message,if have input show result num in the screen
 function Worth() {
 
@@ -56,8 +38,6 @@ function clearCalcScreen() {
 
     document.getElementById("resultBigCalc").innerHTML = ""
 }
-
-
 
 
 
@@ -209,11 +189,6 @@ function checkBMI() {
 
 
 
-
-
-
-
-
 //                                                         mini calc  
 
 
@@ -269,10 +244,6 @@ function checkInputValue(element) {
 
 
 
-
-
-
-
 //                                             multi table Multiplication
 
 
@@ -313,4 +284,3 @@ function multiplicationTable() {
     table += '</table>';
     document.getElementById("resultMultiplication").innerHTML = table;
 }
-

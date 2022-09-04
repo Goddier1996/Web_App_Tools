@@ -1,6 +1,5 @@
 /* info */
 
-
 .start {
     display: flex;
     justify-content: center;
@@ -11,15 +10,12 @@
 }
 
 
-
 .start p {
     padding-top: 1%;
     color: #ffffff;
     letter-spacing: 0.2rem;
     font-family: "Comic Sans MS";
 }
-
-
 
 
 
@@ -47,8 +43,6 @@
     font-family: "Comic Sans MS";
     color: #d79f32;
 }
-
-
 
 
 
@@ -142,12 +136,6 @@
     font-size: 15px;
     text-align: center;
 }
-
-
-
-
-
-
 
 
 
@@ -262,8 +250,6 @@
 
 
 
-
-
 /* Big Calc style */
 
 .modal-contentBigCalc {
@@ -287,8 +273,6 @@
 }
 
 
-
-
 .calculater {
     background-color: #F3EEE7;
     margin-top: 50px;
@@ -303,7 +287,6 @@
     font-size: 20px;
     font-family: "Comic Sans MS";
 }
-
 
 
 .calculater-input {
@@ -323,8 +306,6 @@
     border: none;
     padding: 0.60rem;
 }
-
-
 
 .calculater-btns {
     margin: 10px 15px;
@@ -376,20 +357,7 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 /* cards ui models */
-
 
 :root {
     --varyDarkBlue: hsl(234, 12%, 34%);
@@ -399,9 +367,6 @@
     --weight2: 400;
     --weight3: 600;
 }
-
-
-
 
 .box p {
     color: var(--grayishBlue);
@@ -420,20 +385,6 @@
     cursor: pointer;
 }
 
-
-
-/* @media (max-width: 950px) and (min-width: 450px) {
-    .box {
-        text-align: center;
-        height: auto;
-    }
-
-    .box img {
-        float: none;
-        height: 75px;
-        cursor: pointer;
-    }
-} */
 
 .cyan {
     border-top: 3px solid #fdcb0c;
@@ -513,13 +464,6 @@
 }
 
 
-
-
-
-
-
-
-
 /* Multiplication */
 
 
@@ -544,9 +488,6 @@
 #mtable tr:hover {
     background-color: #F5DEB3;
 }
-
-
-
 
 
 .modal-contentMultiplication {
@@ -630,10 +571,7 @@
 }
 
 
-
-
-
-
+/* responsive */
 
 @media(max-width:991px) {
 
@@ -695,5 +633,4 @@
         font-size: 16px;
         width: 100px;
     }
-
 }
