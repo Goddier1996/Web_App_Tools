@@ -91,7 +91,7 @@
 .styleBmi button {
     color: white;
     background: #0c5a32;
-    height: 40px;
+    height: auto;
     width: 190px;
     border: none;
     border-radius: 15px;
@@ -446,7 +446,6 @@
 
 
 .modal-contentBigCalc {
-
     position: relative;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -481,10 +480,7 @@
 
 .calculater .title {
     font-size: 20px;
-}
-
-.calculater .name {
-    font-size: 12px;
+    font-family: "Comic Sans MS";
 }
 
 
@@ -492,7 +488,7 @@
 .calculater-input {
     margin-left: 9%;
     text-align: right;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 40px;
     background-color: #C7C7B0;
     border: 1px solid #b2b292;
@@ -510,7 +506,20 @@
     margin: 10px 15px;
 }
 
+.table .closeCalc button {
+    background-image: linear-gradient(to bottom, #CC4E5F, #b33445) !important;
+    box-shadow: inset 0 1px 4px #e39da7, inset 0 -4px 20px #b33445 !important;
+    border: 1px solid #CC4E5F !important;
+    width: 55px;
+    text-align: center;
+    align-items: center;
+}
+
+
+
 .table button {
+    text-align: center;
+    align-items: center;
     color: white;
     width: 40px;
     height: 30px;
@@ -522,7 +531,6 @@
 
 .table button:focus {
     outline: none;
-
 }
 
 .table button:active {
@@ -535,9 +543,9 @@
     border: 1px solid #CC4E5F !important;
 }
 
-.red-button:active {
+.red-button:active,
+.table .closeCalc button:active {
     background-image: linear-gradient(to top, #CC4E5F, #b33445) !important;
-
 }
 
 .big-button {
