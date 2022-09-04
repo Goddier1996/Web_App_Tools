@@ -321,7 +321,10 @@
 .table>tbody>tr>td {
     vertical-align: middle;
     border: none;
+    padding: 0.60rem;
 }
+
+
 
 .calculater-btns {
     margin: 10px 15px;
@@ -334,12 +337,11 @@
     box-shadow: inset 0 1px 4px #e39da7, inset 0 -4px 20px #b33445 !important;
     border: 1px solid #CC4E5F !important;
     width: 55px;
+    border-radius: 5px;
 }
 
 
-
 .table button {
-
     color: white;
     width: 40px;
     height: 30px;
@@ -420,7 +422,7 @@
 
 
 
-@media (max-width: 950px) and (min-width: 450px) {
+/* @media (max-width: 950px) and (min-width: 450px) {
     .box {
         text-align: center;
         height: auto;
@@ -431,7 +433,7 @@
         height: 75px;
         cursor: pointer;
     }
-}
+} */
 
 .cyan {
     border-top: 3px solid #fdcb0c;
@@ -634,13 +636,14 @@
 
 
 @media(max-width:991px) {
+
     .HomeImage h1 {
         top: 50%;
         font-size: 30px;
     }
 
     .start p {
-        font-size: 14px;
+        font-size: 15px;
         letter-spacing: 0.1rem;
     }
 
@@ -694,18 +697,3 @@
     }
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
