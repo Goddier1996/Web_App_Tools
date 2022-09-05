@@ -284,3 +284,12 @@ function multiplicationTable() {
     table += '</table>';
     document.getElementById("resultMultiplication").innerHTML = table;
 }
+
+
+
+
+//                                           function exit from Tools
+function exit() {
+
+    window.location.reload(false);
+}

@@ -11,7 +11,7 @@ html::-webkit-scrollbar {
 
 
 html::-webkit-scrollbar-thumb {
-    background-color: #66b539;
+    background-color: #7fa945;
     background-image: -webkit-linear-gradient(45deg,
             rgba(255, 255, 255, .2) 25%,
             transparent 25%,
@@ -65,11 +65,12 @@ html::-webkit-scrollbar-thumb {
 
 .HomeImage h1 {
     position: absolute;
-    top: 53%;
+    top: 51%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-family: "Comic Sans MS";
     color: #d79f32;
+    font-size: 30px;
 }
 
 
@@ -300,7 +301,6 @@ html::-webkit-scrollbar-thumb {
 
 .calculater {
     background-color: #F3EEE7;
-    margin-top: 50px;
     width: 290px;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -310,6 +310,7 @@ html::-webkit-scrollbar-thumb {
 
 .calculater .title {
     font-size: 20px;
+    letter-spacing: 2px;
     font-family: "Comic Sans MS";
 }
 
