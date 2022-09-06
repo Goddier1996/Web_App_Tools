@@ -14,14 +14,6 @@
 
     <script src="https://unpkg.com/mathjs/lib/browser/math.js"></script>
 
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/10.6.4/math.js"
-        integrity="sha512-BbVEDjbqdN3Eow8+empLMrJlxXRj5nEitiCAK5A1pUr66+jLVejo3PmjIaucRnjlB0P9R3rBUs3g5jXc8ti+fQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
-
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/10.6.4/math.min.js"
-        integrity="sha512-iphNRh6dPbeuPGIrQbCdbBF/qcqadKWLa35YPVfMZMHBSI6PLJh1om2xCTWhpVpmUyb4IvVS9iYnnYMkleVXLA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
-
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -107,9 +99,6 @@
 
         </div>
     </div>
-
-
-
     <br />
 
 
@@ -137,20 +126,21 @@
 
                         <div class="calculater-btns center-block">
                             <table class="table">
+
                                 <tr>
                                     <td><button class="red-button" onclick="clearCalcScreen()">CE</button></td>
-
                                     <td><button onclick="showNum('%')">%</button></td>
                                     <td><button onclick="showNum('/')">/</button></td>
                                     <td><button onclick="showNum('-')">-</button></td>
-
                                 </tr>
+
                                 <tr>
                                     <td><button onclick="showNum('7')">7</button></td>
                                     <td><button onclick="showNum('8')">8</button></td>
                                     <td><button onclick="showNum('9')">9</button></td>
                                     <td><button onclick="showNum('*')">X</button></td>
                                 </tr>
+
                                 <tr>
                                     <td><button onclick="showNum('4')">4</button></td>
                                     <td><button onclick="showNum('5')">5</button></td>
@@ -159,26 +149,24 @@
                                             onclick="showNum('+')">+</button>
                                     </td>
                                 </tr>
+
                                 <tr>
                                     <td><button onclick="showNum('1')">1</button></td>
                                     <td><button onclick="showNum('2')">2</button></td>
                                     <td><button onclick="showNum('3')">3</button></td>
-
-
                                 </tr>
+
                                 <tr>
                                     <td><button onclick="showNum('0')">0</button></td>
                                     <td><button onclick="showNum('.')">.</button></td>
                                     <td><button onclick="Worth()">=</button></td>
-                                    <td class="closeCalc"><button data-dismiss="modal">Close</button></td>
-
+                                    <td class="closeCalc"><button onclick="exit()">Close</button></td>
                                 </tr>
+
                             </table>
                         </div>
                     </div>
                 </div>
-
-
             </div>
         </div>
     </div>
@@ -226,17 +214,13 @@
 
                 </div>
 
-
                 <br />
-
-
                 <button type="button" class="btn btn-success" onclick="checkBMI()">Calculate your BMI</button>
 
                 <!-- we show result with popup swal,but can show result and with innerHTML -->
                 <p id="resultBmi"></p>
 
             </div>
-
         </div>
     </div>
 
@@ -260,7 +244,6 @@
                     &times;
                 </h2>
 
-
                 <h1>Mini Calculate :</h1>
                 <br />
 
@@ -283,7 +266,6 @@
 
                 </div>
                 <br />
-
             </div>
         </div>
     </div>
@@ -317,7 +299,6 @@
                     <div class="resMultiplication" id="resultMultiplication"></div>
 
                 </div>
-
                 <br />
             </div>
         </div>
