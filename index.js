@@ -301,9 +301,10 @@ function exit() {
 
 
 
+//                                             Translate
 
 
-
+// this opject all Language you can select in function selectLanguage()
 
 let countries = {
     "am-ET": "Amharic",
@@ -406,12 +407,10 @@ let countries = {
 }
 
 
-
-
-
-
+// chiose Language in select
 let selectTag = document.querySelectorAll("select");
 
+// active function , show all Language from opject "countries", when click select 
 selectLanguage();
 
 
@@ -423,14 +422,17 @@ function selectLanguage() {
 
             let selected;
 
+            // start Language you input
             if (id == 0 && country_code == "en-GB") {
                 selected = "selected";
             }
 
+            // start translator Language
             else if (id == 1 && country_code == "he-IL") {
                 selected = "selected";
             }
 
+            // show all Language in select Html from opject
             let option = `<option ${selected} value="${country_code}">${countries[country_code]}</option>`;
             tag.insertAdjacentHTML("beforeend", option);
         }
@@ -439,46 +441,62 @@ function selectLanguage() {
 
 
 
-
-
-
-
-
+// Click to button translator , take id
 let translateBtn = document.querySelector("#ClickTranslate")
+
+
+// when click active function TranslateTextFunction()
+translateBtn.addEventListener("click", TranslateTextFunction)
+
 
 
 function TranslateTextFunction() {
 
+    // show result after Translate text
     let toText = document.querySelector(".to-text");
+
+    // value what user input
     let fromText = document.querySelector(".from-text")
 
+    // trim() clear all space was in input
+    let text = fromText.value.trim()
 
-    let text = fromText.value.trim(),
-        translateFrom = selectTag[0].value,
-        translateTo = selectTag[1].value;
+    // select Language what you chiose to input
+    let translateFrom = selectTag[0].value
 
-
-    if (!text) return;
-
-    toText.setAttribute("placeholder", "Translating...");
-
-    // use this url https://mymemory.translated.net/doc/spec.php
-    let apiUrl = `https://api.mymemory.translated.net/get?q=${text}&langpair=${translateFrom}|${translateTo}`;
+    // select Language what you chiose Translate
+    let translateTo = selectTag[1].value;
 
 
-    fetch(apiUrl).then(res => res.json()).then(data => {
+    // check if input value or was number
+    if (text == '' || isNaN(text) == false) {
 
-        toText.value = data.responseData.translatedText;
-        data.matches.forEach(data => {
-            if (data.id === 0) {
-                toText.value = data.translation;
-            }
+        // show message
+        toText.setAttribute("placeholder", "Input Value Or input number !");
+        return;
+    }
+
+
+    else {
+
+        // show message
+        toText.setAttribute("placeholder", "Translating...");
+
+        // use this url https://mymemory.translated.net/doc/spec.php
+        let apiUrl = `https://api.mymemory.translated.net/get?q=${text}&langpair=${translateFrom}|${translateTo}`;
+
+
+        fetch(apiUrl).then(res => res.json()).then(data => {
+
+            toText.value = data.responseData.translatedText;
+            data.matches.forEach(data => {
+                if (data.id === 0) {
+                    toText.value = data.translation;
+                }
+            });
+
+            toText.setAttribute("placeholder", "Translation");
         });
-
-        toText.setAttribute("placeholder", "Translation");
-    });
+    }
 
 }
-
-
-translateBtn.addEventListener("click", TranslateTextFunction)

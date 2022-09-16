@@ -412,19 +412,19 @@ html::-webkit-scrollbar-thumb {
 }
 
 
-.cyan {
+.calc1 {
     border-top: 3px solid #fdcb0c;
 }
 
-.red {
+.bmi2 {
     border-top: 3px solid #2c8684;
 }
 
-.blue {
-    border-top: 3px solid #1eddb1;
+.Translate3 {
+    border-top: 3px solid #91dff3;
 }
 
-.orange {
+.Multiplication4 {
     border-top: 3px solid #ab7cf0;
 }
 
@@ -711,11 +711,9 @@ html::-webkit-scrollbar-thumb {
     cursor: pointer;
 }
 
-.text-input textarea::placeholder{
+.text-input textarea::placeholder {
     color: #000000;
 }
-
-
 
 .wrapper {
     border-radius: 5px;
@@ -739,7 +737,7 @@ html::-webkit-scrollbar-thumb {
     font-size: 18px;
     padding: 10px 15px;
     border-radius: 5px;
-    background: #9bcab6;
+    background: #9bcab6c6;
     border: none;
     color: #000000;
 }
@@ -867,6 +865,6 @@ li {
 
     .text-input textarea {
         font-size: 15px;
-        background: #9bcab6;
+        background: #9bcab6c6;
     }
 }
