@@ -7,22 +7,25 @@ Link website - https://math-tools.netlify.app
 
 # Video :
 
-https://user-images.githubusercontent.com/59862302/188327943-169af7d5-0d58-45db-ad70-3c16ac6518e7.mp4
+
+https://user-images.githubusercontent.com/59862302/190668292-fd195d5e-290a-491a-a5b3-9d05e66790bf.mp4
+
 
 # Home page :
+![1](https://user-images.githubusercontent.com/59862302/190668349-368f1802-e219-41d2-adfa-2a2e272468e2.jpg)
 
-![1](https://user-images.githubusercontent.com/59862302/188327957-61cff0ef-cedd-468c-b4c1-373e0767f962.jpg)
-![2](https://user-images.githubusercontent.com/59862302/188327960-f80f311d-ced5-4bb8-80ed-359313f0faba.jpg)
+![2](https://user-images.githubusercontent.com/59862302/190668379-e8d341fb-f4e3-472d-80b3-e43da24d8508.jpg)
 
 # Bmi calculater :
-![3](https://user-images.githubusercontent.com/59862302/188327978-b447015a-1308-42ca-b376-b8f499db54df.jpg)
 
 
 # Big calculater :
-![4](https://user-images.githubusercontent.com/59862302/188327998-0a060104-429f-4c2d-a29d-5995940f49e8.jpg)
 
-# mini calculater :
-![5](https://user-images.githubusercontent.com/59862302/188328007-e57b356d-bc49-42bb-9a3d-fa4e589b8508.jpg)
+![4](https://user-images.githubusercontent.com/59862302/190668455-04039937-080f-45ee-b168-0c5f77988052.jpg)
+
+# translate :
+![6](https://user-images.githubusercontent.com/59862302/190668615-73a961a3-9cfe-42ca-b8aa-6f7bfe97223a.jpg)
+
 
 # Multiplication table
-![6](https://user-images.githubusercontent.com/59862302/188328013-1b47abd2-ed97-4684-9d40-ba2ca271506d.jpg)
+![5](https://user-images.githubusercontent.com/59862302/190668644-651875e2-92b3-4caf-9499-3a02dacd60e5.jpg)
