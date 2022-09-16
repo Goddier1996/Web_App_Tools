@@ -80,10 +80,16 @@
             </div>
 
 
-            <div class="box box-down blue">
+            <!-- <div class="box box-down blue">
                 <h2>Mini Calculator</h2>
                 <p>Mini calculator with calculation operations</p>
                 <img src="/images/miniCalc.png" alt="" data-toggle="modal" data-target="#exampleModalMiniCalc">
+            </div> -->
+
+            <div class="box box-down blue">
+                <h2>Translate</h2>
+                <p>Translate all Languages</p>
+                <img src="/images/miniCalc.png" alt="" data-toggle="modal" data-target="#exampleModalTranslate">
             </div>
 
         </div>
@@ -234,7 +240,7 @@
 
 
     <!-- Modal -->
-    <div class="modal fade" id="exampleModalMiniCalc" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    <!-- <div class="modal fade" id="exampleModalMiniCalc" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
         aria-hidden="true" style="background-color:rgba(0, 0, 0, 0.4)">
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-contentMiniCalc styleMiniCalc">
@@ -268,7 +274,7 @@
                 <br />
             </div>
         </div>
-    </div>
+    </div> -->
 
 
 
@@ -309,11 +315,79 @@
 
 
 
+    <!-- Translate -->
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModalTranslate" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true" style="background-color:rgba(0, 0, 0, 0.4)">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+
+            <div class="modal-contentTranslate styleTranslate">
+
+
+                <h2 class="closes" onclick="exit()" aria-label="Close">
+                    &times;
+                </h2>
+
+                <h1>Translate :</h1>
+                <br />
+
+                <div class="wrapper">
+                    <div class="text-input">
+                        <textarea spellcheck="false" class="from-text" placeholder="Enter text"></textarea>
+                        <textarea spellcheck="false" readonly disabled class="to-text"
+                            placeholder="Translation"></textarea>
+                    </div>
+                    <ul class="controls">
+
+                        <li class="row from">
+                            <select></select>
+                        </li>
+
+                        <li class="row to">
+                            <select></select>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <button class="btn btn-success" id="ClickTranslate">Translate Text</button>
+                <br />
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     <!-- end page fotter -->
 
     <div class="fotter">
-        <p>made and design @Artium Kot</p>
+        <p>made and design @Artem Kot</p>
     </div>
 
 

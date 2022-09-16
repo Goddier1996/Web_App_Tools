@@ -166,7 +166,7 @@ html::-webkit-scrollbar-thumb {
 
 /* mini calc */
 
-.modal-contentMiniCalc {
+/* .modal-contentMiniCalc {
     position: relative;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -270,7 +270,7 @@ html::-webkit-scrollbar-thumb {
     -webkit-appearance: none;
     width: 50px;
     cursor: pointer;
-}
+} */
 
 
 
@@ -659,4 +659,161 @@ html::-webkit-scrollbar-thumb {
         font-size: 16px;
         width: 100px;
     }
+}
+
+
+
+
+
+
+
+
+
+
+/* Translate */
+
+.modal-contentTranslate {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    pointer-events: auto;
+    box-shadow: rgb(0 0 0 / 25%) 25px 25px 75px, rgb(0 0 0 / 25%) 10px 10px 70px, rgb(0 0 0 / 25%) -5px -5px 15px inset, rgb(0 0 0 / 25%) 5px 5px 15px inset;
+    background: url("/images/paperMath.jpg");
+    background-clip: padding-box;
+    border-radius: 15px;
+}
+
+
+.modal-contentTranslate h1 {
+    font-size: 28px;
+    color: rgb(0, 0, 0);
+    font-family: "Comic Sans MS";
+}
+
+
+.styleTranslate h2 {
+    padding-left: 70%;
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1;
+    color: rgb(0, 0, 0);
+    border: none;
+    background-color: none;
+    -webkit-appearance: none;
+    width: 50px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+.wrapper {
+    border-radius: 5px;
+    /* border: 6px solid #e4bb6c; */
+}
+
+.wrapper .text-input {
+    display: flex;
+    border-bottom: 3px solid #e0958f;
+}
+
+.text-input .to-text {
+    border-radius: 0px;
+    border-left: 3px solid #e0958f;
+}
+
+.text-input textarea {
+    height: 250px;
+    width: 100%;
+    resize: none;
+    background: none;
+    font-size: 18px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background: #9bcab6;
+    border: none;
+}
+
+.text-input textarea::placeholder {
+    color: #000000;
+}
+
+.controls,
+li {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.controls {
+    list-style: none;
+    padding: 12px 15px;
+}
+
+
+
+
+
+
+
+.controls .row select {
+    color: #333;
+    outline: none;
+    font-size: 18px;
+    background: #d2b069;
+    padding-left: 5px;
+    border: none;
+    border-radius: 5px;
+    height: 35px;
+}
+
+
+
+
+
+@media (max-width: 660px) {
+
+    .wrapper .text-input {
+        flex-direction: column;
+    }
+
+
+    .text-input textarea {
+        height: auto;
+    }
+
+
+    .wrapper .text-input {
+        display: flex;
+        border: none;
+    }
+
+    .text-input .to-text {
+        border-radius: 0px;
+        border-top: 3px solid #e0958f;
+        border-left: none;
+    }
+
+    .controls .row select {
+        font-size: 14px;
+        width: 65%;
+    }
+
+
+    .text-input textarea {
+        font-size: 15px;
+    }
+
+
 }
