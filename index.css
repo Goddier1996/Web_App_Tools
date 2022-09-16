@@ -857,7 +857,6 @@ li {
         border-radius: 0px;
         border-top: 3px solid #e0958f;
         border-left: none;
-        background: #9bcab6;
     }
 
     .controls .row select {
@@ -868,5 +867,6 @@ li {
 
     .text-input textarea {
         font-size: 15px;
+        background: #9bcab6;
     }
 }
