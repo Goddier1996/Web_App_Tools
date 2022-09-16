@@ -713,14 +713,8 @@ html::-webkit-scrollbar-thumb {
 
 
 
-
-
-
-
-
 .wrapper {
     border-radius: 5px;
-    /* border: 6px solid #e4bb6c; */
 }
 
 .wrapper .text-input {
@@ -743,11 +737,9 @@ html::-webkit-scrollbar-thumb {
     border-radius: 5px;
     background: #9bcab6;
     border: none;
-}
-
-.text-input textarea::placeholder {
     color: #000000;
 }
+
 
 .controls,
 li {
@@ -760,11 +752,6 @@ li {
     list-style: none;
     padding: 12px 15px;
 }
-
-
-
-
-
 
 
 .controls .row select {
@@ -782,7 +769,70 @@ li {
 
 
 
-@media (max-width: 660px) {
+
+
+/* responsive */
+
+@media(max-width:991px) {
+
+    .HomeImage h1 {
+        top: 50%;
+        font-size: 30px;
+    }
+
+    .start p {
+        font-size: 15px;
+        letter-spacing: 0.1rem;
+    }
+
+    .fotter p {
+        padding-top: 3%;
+    }
+
+    .box {
+        text-align: center;
+        height: auto;
+    }
+
+    .box img {
+        float: none;
+        height: 75px;
+        cursor: pointer;
+    }
+
+
+    .containerBigCalc {
+        position: relative;
+        min-width: 100px;
+        min-height: 100px;
+        padding: 20px 30px 30px;
+    }
+
+    .containerBigCalc span {
+        width: 30px;
+        margin: 8px;
+        height: 30px;
+    }
+
+    .table button {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+
+    /* 
+    .inP input {
+        font-size: 16px;
+        height: 50px;
+        width: 60px;
+    }
+
+
+    .inP p {
+        font-size: 16px;
+        width: 100px;
+    } */
 
     .wrapper .text-input {
         flex-direction: column;
@@ -814,6 +864,4 @@ li {
     .text-input textarea {
         font-size: 15px;
     }
-
-
 }
