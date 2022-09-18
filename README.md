@@ -1,6 +1,6 @@
-# Mini Math Tools - Html , Css , JavaScript
+# Mini Web Tools - Html , Css , JavaScript
   
-in this project can use Tools math Bmi calculater , mini calculater , big calculater , Multiplication table.
+in this project can use Tools Bmi calculater , Translate , big calculater , Multiplication table.
  
 Link website - https://math-tools.netlify.app
 
