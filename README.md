@@ -2,7 +2,7 @@
   
 in this project can use Tools Bmi calculater , Translate , big calculater , Multiplication table.
  
-Link website - https://tools.on.fleek.co 
+Link website - https://tools-free.netlify.app
 
 
 # Video :
